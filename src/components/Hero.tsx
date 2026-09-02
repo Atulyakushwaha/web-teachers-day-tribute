@@ -126,8 +126,7 @@ const Hero = () => {
             className="rise-in mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground"
             style={{ animationDelay: "1.2s" }}
           >
-            Behind every doctor, engineer, artist and dreamer stands a teacher who
-            believed first. Today we celebrate the quiet heroes who light the way.
+            Dr. Vineet Tiwari is an Associate Professor in the Department of Management Studies at IIIT Allahabad, with a rather unusual path to get here — a B.E. in Mechanical Engineering, an MBA, and a PhD, in that order. It's the kind of background that shows up in how he guides research: equal parts engineer's precision and management scholar's sense of the bigger picture.
           </p>
 
           <div
