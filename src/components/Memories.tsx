@@ -9,7 +9,7 @@ export type MemoryCard = {
 
 const IMG = {
   helpingDesk:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/1eb4c973-0c7a-4329-a016-ccf8d531b5ee.png",
+    "/chandrakant.png",
   celebration:
     "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/1b07f709-6fdb-4f41-9bd1-dc9722e34bbf.png",
   deskStill:
