@@ -8,15 +8,16 @@ export type GalleryPhoto = {
   span: string;
 };
 
+// Use images placed in `public/gallery/`. Put your attached images there with the
+// filenames below and they will be served at `BASE_URL + 'gallery/<name>'`.
+const base = import.meta.env.BASE_URL || "/";
 const IMG = {
-  helpingDesk:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/1eb4c973-0c7a-4329-a016-ccf8d531b5ee.png",
-  celebration:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/1b07f709-6fdb-4f41-9bd1-dc9722e34bbf.png",
-  deskStill:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/fa29e6cf-a074-4320-8aef-57989a4bed5b.png",
-  underTree:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/82e1b600-ccb8-4e0c-b714-b86f81d1de42.png",
+  helpingDesk: `${base}gallery/photo-01.jpg`,
+  celebration: `${base}gallery/photo-02.jpg`,
+  deskStill: `${base}gallery/photo-03.jpg`,
+  groupSteps: `${base}gallery/photo-04.jpg`,
+  audience: `${base}gallery/photo-05.jpg`,
+  office: `${base}gallery/photo-06.jpg`,
 } as const;
 
 const GALLERY_PHOTOS: GalleryPhoto[] = [
@@ -39,10 +40,22 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
     span: "",
   },
   {
-    src: IMG.underTree,
-    alt: "A teacher teaching students under a tree",
-    caption: "Lessons that never needed a room",
+    src: IMG.groupSteps,
+    alt: "Group photo on steps",
+    caption: "Where the magic is planned",
     span: "md:col-span-2",
+  },
+  {
+    src: IMG.audience,
+    alt: "Audience and organisers",
+    caption: "Moments from the event",
+    span: "",
+  },
+  {
+    src: IMG.office,
+    alt: "Staff and students in an office",
+    caption: "Behind the scenes",
+    span: "",
   },
 ];
 
