@@ -12,11 +12,11 @@ export type GalleryPhoto = {
 // filenames below and they will be served at `BASE_URL + 'gallery/<name>'`.
 const base = import.meta.env.BASE_URL || "/";
 const IMG = {
-  helpingDesk: `${base}gallery/photo1.jpg`,
-  celebration: `${base}gallery/photo2.jpg`,
-  deskStill: `${base}gallery/photo3.jpg`,
-  groupSteps: `${base}gallery/photo4.jpg`,
-  audience: `${base}gallery/photo5.jpg`,
+  helpingDesk: `${base}gallery/photo1.jpeg`,
+  celebration: `${base}gallery/photo2.jpeg`,
+  deskStill: `${base}gallery/photo3.jpeg`,
+  groupSteps: `${base}gallery/photo4.jpeg`,
+  audience: `${base}gallery/photo5.jpeg`,
   office: `${base}gallery/photo6.jpg`,
 } as const;
 
