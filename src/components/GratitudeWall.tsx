@@ -26,7 +26,7 @@ const SEED_NOTES: Note[] = [
     id: "seed-2",
     name: "Ashok Kanaujia",
     message:
-      "You never once made a "silly question" feel silly. That mattered more than you know.",
+      "You never once made a silly question feel silly. That mattered more than you know.",
     likes: 58,
     liked: false,
   },
