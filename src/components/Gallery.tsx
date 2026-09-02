@@ -17,7 +17,7 @@ const IMG = {
   deskStill: `${base}gallery/photo3.jpeg`,
   groupSteps: `${base}gallery/photo4.jpeg`,
   audience: `${base}gallery/photo5.jpeg`,
-  office: `${base}gallery/photo6.jpg`,
+  office: `${base}gallery/photo6.jpeg`,
 } as const;
 
 const GALLERY_PHOTOS: GalleryPhoto[] = [
