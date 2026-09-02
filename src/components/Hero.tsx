@@ -2,7 +2,7 @@ import { useCallback, useMemo, useRef } from "react";
 import { GraduationCap, Heart, Sparkles } from "lucide-react";
 
 const HERO_IMG =
-  "public/Gemini_Generated_Image_7ra7dl7ra7dl7ra7.png";
+  "https://mega.nz/file/LYwgDZQS#_7fvbSpfjPNpQ8urQcqZkU-A7-OLugSSyxo31wQH-D0";
 
 const HEADLINE = ["To", "the", "ones", "who", "teach", "us", "everything."];
 
