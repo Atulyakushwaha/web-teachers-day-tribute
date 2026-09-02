@@ -11,9 +11,9 @@ const IMG = {
   helpingDesk:
     "/chandrakant.png",
   celebration:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/1b07f709-6fdb-4f41-9bd1-dc9722e34bbf.png",
+    "/chandrakant.png",
   deskStill:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/fa29e6cf-a074-4320-8aef-57989a4bed5b.png",
+    "/chandrakant.png",
   underTree:
     "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/82e1b600-ccb8-4e0c-b714-b86f81d1de42.png",
   chalkboard:
