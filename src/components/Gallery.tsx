@@ -13,11 +13,11 @@ export type GalleryPhoto = {
 const base = import.meta.env.BASE_URL || "/";
 const IMG = {
   helpingDesk: `${base}gallery/photo1.jpg`,
-  celebration: `${base}gallery/photo-02.jpg`,
-  deskStill: `${base}gallery/photo-03.jpg`,
-  groupSteps: `${base}gallery/photo-04.jpg`,
-  audience: `${base}gallery/photo-05.jpg`,
-  office: `${base}gallery/photo-06.jpg`,
+  celebration: `${base}gallery/photo2.jpg`,
+  deskStill: `${base}gallery/photo3.jpg`,
+  groupSteps: `${base}gallery/photo4.jpg`,
+  audience: `${base}gallery/photo5.jpg`,
+  office: `${base}gallery/photo6.jpg`,
 } as const;
 
 const GALLERY_PHOTOS: GalleryPhoto[] = [
