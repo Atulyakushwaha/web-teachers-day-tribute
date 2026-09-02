@@ -24,7 +24,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     src: IMG.helpingDesk,
     alt: "A teacher helping a student at their desk",
-    caption: "One more explanation, until it clicks",
+    caption: "One more explanation,",
     span: "md:row-span-2",
   },
   {
