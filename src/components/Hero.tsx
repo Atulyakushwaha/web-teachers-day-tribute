@@ -1,8 +1,7 @@
 import { useCallback, useMemo, useRef } from "react";
 import { GraduationCap, Heart, Sparkles } from "lucide-react";
 
-const HERO_IMG =
-  "https://mega.nz/file/LYwgDZQS#_7fvbSpfjPNpQ8urQcqZkU-A7-OLugSSyxo31wQH-D0";
+const HERO_IMG = import.meta.env.BASE_URL + "hero.png;
 
 const HEADLINE = ["To", "the", "ones", "who", "teach", "us", "everything."];
 
