@@ -19,7 +19,7 @@ const SEED_NOTES: Note[] = [
     name: "Chandrakant Upadhyay",
     message:
       "Thank you for reading our drafts even on weekends. We still don't know how you found the time",
-    likes: 42,
+    likes: 2,
     liked: false,
   },
   {
@@ -27,7 +27,7 @@ const SEED_NOTES: Note[] = [
     name: "Ashok Kanaujia",
     message:
       "You never once made a silly question feel silly. That mattered more than you know.",
-    likes: 58,
+    likes: 5,
     liked: false,
   },
   {
@@ -35,7 +35,7 @@ const SEED_NOTES: Note[] = [
     name: "Swati Yadav",
     message:
       "Every setback came with a plan for the next step before we'd even finished being upset about it.",
-    likes: 37,
+    likes: 3,
     liked: false,
   },
    {
@@ -43,7 +43,7 @@ const SEED_NOTES: Note[] = [
     name: "Md Alijah Hassan",
     message:
       "You taught us to defend our work, not just present it. Still the most useful thing we know.",
-    likes: 37,
+    likes: 2,
     liked: false,
   },
    {
@@ -51,7 +51,7 @@ const SEED_NOTES: Note[] = [
     name: "Tanishka Jaiswal",
     message:
       "Happy Teachers' Day. We got here because you stayed patient longer than we did.",
-    likes: 37,
+    likes: 0,
     liked: false,
   },
    {
@@ -59,7 +59,43 @@ const SEED_NOTES: Note[] = [
     name: "Kashish Sonker",
     message:
       "Happy Teachers' Day, Sir! Thank you for always supporting me, patiently hearing me out, and being a constant source of motivation. Your stories, advice, and career guidance have always helped me grow a little more. I am truly grateful to have you as my mentor.",
-    likes: 37,
+    likes: 0,
+    liked: false,
+  },
+  {
+    id: "seed-7",
+    name: "Varu Jaiswal",
+    message:
+      "Your feedback was always honest, and always exactly what we needed to hear.",
+    likes: 0,
+    liked: false,
+  },{
+    id: "seed-8",
+    name: "Surbhi Chauhanr",
+    message:
+      "Happy Teacher's Day, Sir! 🌸 I feel truly fortunate to have you as my guide. Thank you for always being so supportive, patient, humble, and understanding. Your guidance genuinely means a lot to me. 🙏🏻",
+    likes: 0,
+    liked: false,
+  },{
+    id: "seed-9",
+    name: "Sudhanshu Pandey",
+    message:
+      "A very Happy Teachers' Day to you, dear Vineet Sir! 🌷 Sir, I owe a lot to you for giving me this wonderful opportunity to pursue my research under your guidance. Your trust and encouragement mean a great deal to me, and I feel truly fortunate to have you as my mentor. On this special day, I would like to seek your blessings and continued guidance as I embark on this journey. I sincerely hope that I can live up to your expectations and make you proud. Wishing you a very Happy Teachers' Day, Sir! 🙏🌸.",
+    likes: 1,
+    liked: false,
+  },{
+    id: "seed-10",
+    name: "Atulya Kushwaha",
+    message:
+      "Happy Teachers Day, Sir! I would like to express my heartfelt gratitude for your kindness, inspiration, and dedication to your students, including myself. I wish you happiness, good health, and great success in every aspect of your life.",
+    likes: 0,
+    liked: false,
+  },{
+    id: "seed-11",
+    name: "Niyati Upadhyay",
+    message:
+      "Happy Teacher's Day, Sir! I may disagree with you quite often, but there's no one whose words and guidance I respect more. No matter how many teachers I come across, you'll always be in a league of your own. Truly lucky to have you as my mentor.",
+    likes: 0,
     liked: false,
   },
 ];
