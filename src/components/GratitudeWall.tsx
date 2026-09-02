@@ -16,25 +16,49 @@ const STORAGE_KEY = "teachers-day-notes";
 const SEED_NOTES: Note[] = [
   {
     id: "seed-1",
-    name: "Aarav",
+    name: "Chandrakant Upadhyay",
     message:
-      "You stayed after class every single day until math finally made sense to me. I never forgot it.",
+      "Thank you for reading our drafts even on weekends. We still don't know how you found the time",
     likes: 42,
     liked: false,
   },
   {
     id: "seed-2",
-    name: "Maya",
+    name: "Ashok Kanaujia",
     message:
-      "You told me my questions were the best part of the lesson. You made me brave enough to keep asking.",
+      "You never once made a "silly question" feel silly. That mattered more than you know.",
     likes: 58,
     liked: false,
   },
   {
     id: "seed-3",
-    name: "Diego",
+    name: "Swati Yadav",
     message:
-      "Ten years later I still hear your voice: 'Do it properly, or do it again.' It made me who I am.",
+      "Every setback came with a plan for the next step before we'd even finished being upset about it.",
+    likes: 37,
+    liked: false,
+  },
+   {
+    id: "seed-4",
+    name: "Md Alijah Hassan",
+    message:
+      "You taught us to defend our work, not just present it. Still the most useful thing we know.",
+    likes: 37,
+    liked: false,
+  },
+   {
+    id: "seed-5",
+    name: "Tanishka Jaiswal",
+    message:
+      "Happy Teachers' Day. We got here because you stayed patient longer than we did.",
+    likes: 37,
+    liked: false,
+  },
+   {
+    id: "seed-6",
+    name: "Kashish Sonker",
+    message:
+      "Happy Teachers' Day, Sir! Thank you for always supporting me, patiently hearing me out, and being a constant source of motivation. Your stories, advice, and career guidance have always helped me grow a little more. I am truly grateful to have you as my mentor.",
     likes: 37,
     liked: false,
   },
