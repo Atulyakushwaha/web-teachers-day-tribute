@@ -22,7 +22,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          # Workaround: remove package-lock to avoid optional native-binding mismatch on runner
+          rm -f package-lock.json
+          npm install
 
       - name: Build
         run: npm run build
