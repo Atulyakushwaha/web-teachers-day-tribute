@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useRef } from "react";
 import { GraduationCap, Heart, Sparkles } from "lucide-react";
 
+const HERO_IMG = "/hero.png";
 
 
 const HEADLINE = ["To", "the", "ones", "who", "teach", "us", "everything."];
@@ -165,7 +166,7 @@ const Hero = () => {
           >
             <div className="animate-float-y overflow-hidden rounded-t-full rounded-b-[1.6rem]">
               <img
-                src="/hero.png"
+                src={HERO_IMG}
                 alt="A teacher in a warm, sunlit classroom"
                 className="aspect-[3/4] w-full object-cover"
                 loading="eager"
