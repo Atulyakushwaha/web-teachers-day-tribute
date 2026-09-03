@@ -9,11 +9,11 @@ export type MemoryCard = {
 
 const IMG = {
   helpingDesk:
-    import.meta.env.BASE_URL + "hero.png",
+    import.meta.env.BASE_URL + "chandrakant.png",
   celebration:
-    import.meta.env.BASE_URL + "hero.png",
+    import.meta.env.BASE_URL + "chandrakant.png",
   deskStill:
-    import.meta.env.BASE_URL + "hero.png",
+    import.meta.env.BASE_URL + "chandrakant.png",
   underTree:
     "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/82e1b600-ccb8-4e0c-b714-b86f81d1de42.png",
   chalkboard:
