@@ -15,16 +15,16 @@ const IMG = {
   deskStill:
     import.meta.env.BASE_URL + "chandrakant.png",
   underTree:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/82e1b600-ccb8-4e0c-b714-b86f81d1de42.png",
+    import.meta.env.BASE_URL + "chandrakant.png",
   chalkboard:
-    "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/c45d2be6-4a32-4e6f-848a-09a6485e102b.png",
+    import.meta.env.BASE_URL + "chandrakant.png",
 } as const;
 
 const ROW_ONE: MemoryCard[] = [
   {
     src: IMG.celebration,
     alt: "Students celebrating with their teacher",
-    memory: "First day jitters → lifelong friends",
+    memory: "Chandrakant Upadhyay",
     tilt: "-2deg",
   },
   {
