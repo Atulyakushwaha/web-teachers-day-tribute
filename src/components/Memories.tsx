@@ -9,7 +9,7 @@ export type MemoryCard = {
 
 const IMG = {
   helpingDesk:
-    "/chandrakant.png",
+    import.meta.env.BASE_URL + "hero.png",
   celebration:
     "/chandrakant.png",
   deskStill:
