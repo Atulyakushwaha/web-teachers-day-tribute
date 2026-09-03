@@ -11,9 +11,9 @@ const IMG = {
   helpingDesk:
     import.meta.env.BASE_URL + "hero.png",
   celebration:
-    "/chandrakant.png",
+    import.meta.env.BASE_URL + "hero.png",
   deskStill:
-    "/chandrakant.png",
+    import.meta.env.BASE_URL + "hero.png",
   underTree:
     "https://r2-pub.rork.com/projects/qt9t3r4f6k1tv8d64ege3/assets/82e1b600-ccb8-4e0c-b714-b86f81d1de42.png",
   chalkboard:
